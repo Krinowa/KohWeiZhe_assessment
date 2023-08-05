@@ -1,0 +1,25 @@
+/* styles/Paginate.css */
+
+.paginate-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .paginate {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .page-number {
+    margin: 0 5px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 4px;
+  }
+  
+  .page-number:hover {
+    background-color: #f0f0f0;
+  }
